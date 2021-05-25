@@ -1,11 +1,9 @@
 # Codes-for-Lifelong-Learning-of-Topics-and-Domain-Specific-Word-Embeddings-
 Codes for "Lifelong Learning of Topics and Domain-Specific Word Embeddings"
 
-## About the codes
-
 First, run dataprocess.py to finish dataprocessing. Then, run build_svm_dataset.py to generate processed dataset for word embedding downstream tasks. Finally, run python cllm_amazon_parameter_npmi.py -d data_correct\Ama for LCM.
 	
-## Due to the limited space of the paper, we provide the search space of hyperparameters for grid search in all of our baselines and their corresponding best hyperparameters.
+Due to the limited space of the paper, we provide the search space of hyperparameters for grid search in all of our baselines and their corresponding best hyperparameters.
 
 ### LDA-LTM
 
