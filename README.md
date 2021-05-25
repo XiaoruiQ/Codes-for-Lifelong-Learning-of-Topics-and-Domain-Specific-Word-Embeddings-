@@ -1,4 +1,4 @@
-# Codes-for-Lifelong-Learning-of-Topics-and-Domain-Specific-Word-Embeddings-
+# Codes-for-Lifelong-Learning-of-Topics-and-Domain-Specific-Word-Embeddings
 Codes for "Lifelong Learning of Topics and Domain-Specific Word Embeddings"
 
 First, run dataprocess.py to finish dataprocessing. Then, run build_svm_dataset.py to generate processed dataset for word embedding downstream tasks. Finally, run python cllm_amazon_parameter_npmi.py -d data_correct\Ama for LCM.
