@@ -130,3 +130,6 @@ best parameters:
 | metrics | topic_num | iterations | alpha | beta | embedding_nnz |
 | ------- | --------- | ---------- | ----- | ---- | ------------- |
 | svm     | 1000      | 300        | 0.1   | 0.01 | 20            |
+
+Notes:
+In Section 4.5.4, we propose that "For all domains, the latest KG will not have a significant negative impact on LCM (i.e., the catastrophic forgetting is limited), and sometimes it even helps with the new task. For example, both NMF-LTM and LCM achieve better NPMI scores with the latest KG in 'SIM Cards & Prepaid Minutes'". We are so sorry for the clerical error. The correct example should be "Pet Behavior Center", not "SIM Cards & Prepaid Minutes".
